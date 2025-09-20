@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <style>
+        body {
+            display: flex;
+            background-image: url(login-bg.png);
+            background-repeat: no-repeat;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f7fafc; 
+            margin: 0;
+        }
+         
+        .container {
+            margin-top: 200px;
+            
+          
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 32px;
+            width: 400px;
+            backdrop-filter: blur(10px);
+            border: 2px white;
+            border: 2px solid white;
+        }
+        .logo {
+            background-image:url(googlelogo1.jpg);
+            background-repeat: no-repeat;  
+            background-size: 65px;
+            border: 2px dashed;
+            border-radius: 50%;
+            width: 64px;
+            height: 64px;
+            margin: 0 auto 16px;
+        }
+        h1 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 16px;
+            color: #4299e1; 
+             
+        }
+        label {
+            display: block;
+            color: #4A5568;  
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        input, select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #cbd5e0;  
+            border-radius: 4px;
+            margin-bottom: 16px;
+            font-size: 16px;
+            color: #4A5568;  
+        }
+        .submit-button {
+            background-color: #4299e1;  
+            color: white;
+            font-weight: bold;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+        .submit-button:hover {
+            background-color: #3182ce; 
+        }
+    </style>
+</head>
+<body>
+
+    
+    <div class="container">
+        <div class="logo"></div>
+        <h1 style="color: white;">Sign Up</h1>
+        
+        <form id="createAccountForm">
+            <div>
+                <label for="firstName" style="color: white;">First name</label>
+                <input
+                    id="firstName"
+                    type="text"
+                    placeholder="Enter your first name"
+                    required
+                />
+            </div>
+            <div>
+                <label for="lastName" style="color: white;">Last name</label>
+                <input
+                    id="lastName"
+                    type="text"
+                    placeholder="Enter your last name"
+                    required
+                />
+            </div>
+            <div>
+                <label for="email" style="color: white;">Email</label>
+                <input
+                    id="email"
+                    type="email"
+                    placeholder="Enter your email"
+                    required
+                />
+            </div>
+            <div>
+                <label for="password" style="color: white;">Password</label>
+                <input
+                    id="password"
+                    type="password"
+                    placeholder="Enter your password"
+                    required
+                />
+            </div>
+            <div>
+                <label for="confirmPassword" style="color: white;">Confirm password</label>
+                <input
+                    id="confirmPassword"
+                    type="password"
+                    placeholder="Confirm your password"
+                    required
+                />
+            </div>
+            <div>
+                <label for="phoneNumber" style="color: white;">Phone number</label>
+                <input
+                    id="phoneNumber"
+                    type="text"
+                    placeholder="Enter your phone number"
+                    required
+                />
+            </div>
+            <div>
+                <label for="birthday" style="color: white;">Birthday</label>
+                <input
+                    id="birthday"
+                    type="date"
+                    required
+                />
+            </div>
+            <div>
+                <label for="gender" style="color: white;">Gender</label>
+                <select id="gender" required>
+                    <option value="">Select gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <button class="submit-button" type="submit">Create</button>
+            <center>
+                 <a href="sign page .html"><h3 style="color: white;"> Aleardy have Account (Sign In) </h3></a>
+                 <h3  ><a href="index.html" style="color: white;">Home</a></h3>
+            
+            </center>
+        </form>
+    </div>
+
+</body>
+</html>

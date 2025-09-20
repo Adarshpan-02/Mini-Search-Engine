@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In Page</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f7fafc; 
+            margin: 0;
+            background-image: url(login-bg.png);
+            background-repeat: no-repeat;
+        }
+        .container {
+          
+            padding: 32px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            backdrop-filter: blur(10px);
+            border: 2px white;
+            border: 2px solid white;
+        }
+        .logo {
+            background-image:url(googlelogo1.jpg);
+            background-repeat: no-repeat;  
+            background-size: 65px;
+            border: 2px dashed;
+            border-radius: 50%;
+            width: 64px;
+            height: 64px;
+            margin: 0 auto 16px;
+        }
+        h2 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 16px;
+        }
+        h3 {
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 16px;
+        }
+        label {
+            display: block;
+            color: #4A5568;  
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #cbd5e0; 
+            border-radius: 4px;
+            margin-bottom: 16px;
+            font-size: 16px;
+            color: #4A5568;  
+        }
+        .show-password {
+            margin-left: 8px;
+            color: #4A5568; 
+            cursor: pointer;
+        }
+        .forgot-password {
+            color: #4299e1; 
+            text-decoration: none;
+            margin-bottom: 16px;
+        }
+        .forgot-password:hover {
+            color: #2b6cb0; 
+        }
+        .submit-button {
+            background-color: #4299e1; 
+            color: white;
+            font-weight: bold;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+        .submit-button:hover {
+            background-color: #3182ce; 
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="logo"></div>
+        <h2 style="color: white;">Sign in</h2>
+         
+        <form id="signInForm">
+            <div>
+                <label for="email" style="color: white;">Email</label>
+                <input
+                    id="email"
+                    type="email"
+                    placeholder="Enter your email"
+                    required
+                />
+            </div>
+            <div>
+                <label for="password" style="color: white;">Password</label>
+                <div style="display: flex; align-items: center;">
+                    <input
+                        id="password"
+                        type="password"
+                        placeholder="Enter your password"
+                        required
+                    />
+                    
+                </div>
+            </div>
+            <div>
+                <a class="forgot-password" href="#" style="color: white;">Forgot password?</a>
+            </div>
+            <button class="submit-button" type="submit">Sign in</button>
+           <center> 
+            <h3 style="color: white;">Don,t have Account<a href="login page.html" style="color: white;">(Sign Up)</h3></a>
+            <h3  ><a href="index.html" style="color: white;">Home</a></h3></center>
+        </form>
+    </div>
+</body>
+</html>
+
+    
