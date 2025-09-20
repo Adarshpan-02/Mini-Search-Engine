@@ -1,43 +1,43 @@
 # Mini Search Engine
 
-A lightweight, fast, and modern search engine web app inspired by Google, built using HTML.  
-**Live Demo:** [webgoogle-ghost.netlify.app](https://webgoogle-ghost.netlify.app/)
+## Project Overview
+Mini Search Engine is a lightweight, fast, and user-friendly search engine UI inspired by Google’s clean interface. It demonstrates how a search engine front-end can look and behave while providing an intuitive search experience.
 
-## Features
+## Live Demo
+Try the live demo here:  
+[https://webgoogle-ghost.netlify.app/](https://webgoogle-ghost.netlify.app/)
 
-- 🔎 Simple and fast search experience  
-- 🌐 Clean, Google-like UI  
-- ⚡ Instant search suggestions  
-- 📱 Responsive design for desktop and mobile  
-- 🕵️‍♂️ Privacy-friendly: No data tracking  
+## Key Features
 
-## How It Works
+- 🔎 Minimalist, Google-inspired UI
+- ⚡ Fast and responsive search interaction
+- 📱 Fully responsive design for mobile, tablet, and desktop
+- 🕵️‍♂️ Privacy-friendly: No user tracking
+- 🖼️ Custom branding and logo
+- ⌨️ Keyboard navigation for quick searching
 
-This project simulates a search engine UI. It does not perform real web searches, but demonstrates how a search engine front-end can look and behave.
+## Tech Stack
 
-## Getting Started
+- HTML (100%)
 
-### Prerequisites
-
-- Modern web browser (Chrome, Firefox, Edge, etc.)
-
-### Running Locally
+## How to Run Locally
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/Adarshpan-02/Mini-Search-Engine.git
    ```
-2. Open `index.html` in your browser.
+2. Open `index.html` directly in your browser.
 
-## Demo
+## Usage Instructions
 
-Check out the live site:  
-[https://webgoogle-ghost.netlify.app/](https://webgoogle-ghost.netlify.app/)
+- Type your search query in the search bar and press Enter.
+- Explore the UI features, including branding and responsive layout.
 
 ## Screenshots
 
-![Screenshot](screenshot.png)  
-*Add screenshots of your app here.*
+_Add screenshots of your application here for better visualization._
+
+![Screenshot](screenshot.png)
 
 ## Credits
 
@@ -45,4 +45,4 @@ Developed by [Adarsh Pandey](https://github.com/Adarshpan-02)
 
 ## License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source under the [MIT License](LICENSE).
